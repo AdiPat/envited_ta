@@ -1,0 +1,15 @@
+@import "./scss/colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+body {
+  background-color: $sec-purple-3 !important;
+}

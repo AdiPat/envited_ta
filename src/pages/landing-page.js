@@ -1,8 +1,13 @@
+import { EventCard, LandingHeader } from "../components";
+
 function LandingPage() {
   return (
-    <div>
-      <h1>Landing Page</h1>
-    </div>
+    <section className="landing-section">
+      <div className="landing-container">
+        <LandingHeader />
+        <EventCard />
+      </div>
+    </section>
   );
 }
 
